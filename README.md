@@ -36,6 +36,8 @@ See the [manual](http://cdn.rawgit.com/paultuckey/urlrewritefilter/master/src/do
     <filter>
         <filter-name>UrlRewriteFilter</filter-name>
         <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+        <!--Optional Async Support-->
+        <async-supported>true</async-supported>
     </filter>
     <filter-mapping>
         <filter-name>UrlRewriteFilter</filter-name>
